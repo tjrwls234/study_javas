@@ -1,0 +1,19 @@
+* Inheritance Class
+- Object
+   - Vehicles(Calculations.java) : int speed(kms, hours)->km / hour & int weight(height, width, depth)-> height*width*depth
+	- Vans(ExtendsCalcaultions.java) : int windows_count(oneway_count)->oneway_count*3
+	- Cars(ExtendsCalcaultions.java) : Cars(oneway_cout) & int int speed(kms, hours)->((kms / hours) + oneway_count)
+
+InheritanceVehicles.java(InheritanceMain.java)
+int main(){
+new Vehicles
+	speed(...)
+	weight(...)
+new Vans
+	speed(...)
+	weight(...)
+	windows_count(...)
+new Cars(oneway_cout)
+	speed(...)
+	weight(...)
+}
